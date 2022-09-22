@@ -1,0 +1,679 @@
+
+body{
+    background-color: #e4e5e7;
+    overflow-x: hidden;
+    height: 1000px;
+    }
+    
+bioAML{
+      width: 70%;
+      height: 70%;
+      align-items: center;
+      }
+    
+nav-item{
+            align-items: center;
+        }
+
+
+.img1{
+    margin-top: 1px;
+    left: 10.1179999998%;
+    width: 30%;
+    
+}   
+.circulo{
+    width: 350px;
+    margin-left: 0.00000000002%;
+    margin-top: 0.000000000000000000000000000000000001%;
+}
+.h1title{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1;
+    margin: 19, 0 0;
+    color: black;
+    margin-top: 2%;
+    position: relative;;
+}
+
+
+#container {
+    display: inline-block;
+    position: right;
+   
+  }
+  
+  #container figcaption {
+    left: 12%;
+    top: 145px;
+    font-size: 40px;
+    color: black;
+    vertical-align: inherit;
+    
+  }
+ .textum{
+    text-align: left;
+ }
+ .texto1{
+margin-left: 35px;
+ }
+
+ figure {
+    float: right;
+    margin: 0 0 10px 10px;
+    size: 70px;
+  }
+  .container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+/*Mexendo no Scroll*/
+body::-webkit-scrollbar { 
+    width: 10px;
+    background-color: #CCCCCC;
+
+}
+
+/*Barra de trás do scroll*/
+body::-webkit-scrollbar-track {
+    background: #CCCCCC;
+}
+body::-webkit-scrollbar-button {
+    border: 1px #CCCCCC dashed;
+}
+/*Barrinha*/
+body::-webkit-scrollbar-thumb {
+    background: #ffb700;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+body::-webkit-scrollbar-corner {
+    background:#CCCCCC ;
+    border-radius: 5px;
+}
+.form-comment textarea::-webkit-resizer {
+    border: 1px #CCCCCC dashed;
+}
+/*Voltar ao Topo*/
+.top {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+   
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+ /*Carrossel**/
+ div.scrollmenu {
+    background-color: #e4e5e7;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+div.scrollmenu img {
+    display: inline-block;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+  }
+/*Scroll do Carrosssel*/
+#carrossel::-webkit-scrollbar { 
+    width: 5px;
+    background-color: #CCCCCC;
+    display: none;
+}
+
+/*Barra de trás do scroll*/
+#carrossel::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+#carrossel::-webkit-scrollbar-button {
+    border: 1px #CCCCCC dashed;
+}
+/*Barrinha*/
+#carrossel::-webkit-scrollbar-thumb {
+    background: #ffb700;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+#carrossel::-webkit-scrollbar-corner {
+    background:#CCCCCC ;
+    border-radius: 5px;
+}
+.form-comment textarea::-webkit-resizer {
+    border: 1px #CCCCCC dashed;
+}
+/*2.0*/
+:root {
+    --gutter: 20px;
+  }
+  
+  .app {
+    padding: var(--gutter) 0;
+    display: grid;
+    grid-gap: var(--gutter) 0;
+    grid-template-columns: var(--gutter) 1fr var(--gutter);
+    align-content: start;
+  }
+  
+  .app > * {
+    grid-column: 2 / -2;
+  }
+  
+  .app > .full {
+    grid-column: 1 / -1;
+  }
+  
+  .hs {
+    display: grid;
+    grid-gap: calc(var(--gutter) / 2);
+    grid-template-columns: 10px;
+    grid-template-rows: minmax(150px, 1fr);
+    grid-auto-flow: column;
+    grid-auto-columns: calc(50% - var(--gutter) * 2);
+  
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    padding-bottom: calc(.75 * var(--gutter));
+    margin-bottom: calc(-.25 * var(--gutter));
+  }
+  
+  .hs:before,
+  .hs:after {
+    content: '';
+    width: 10px;
+  }
+  
+  
+  /* Demo styles */
+  
+ 
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+  }
+  
+  .app {
+   
+    background: #e4e5e7;
+    padding: 200px;
+    align-items: center;
+  }
+  
+  .hs > li,
+  .item {
+    align-items: center;
+    padding: calc(var(--gutter) / 2 * 1.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+  }
+  img{
+    align-items: center;
+    padding: calc(var(--gutter) / 2 * 1.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    border-radius: 10px;
+    
+  }
+  .car{
+    padding-left: 50px;
+    padding-right: 50px;
+   
+  }
+  .img-responsive
+  {
+    border-radius: 30px;
+  }
+  .computer{
+    width: 700px;
+    margin-top: none;
+    padding: none;
+    border: none;
+  }
+  .bioAML{
+    width: 330px;
+  }
+  #navbarNav{
+    align-items: center;
+    padding-left: 20px;
+  }
+  
+  .nav-item{
+    padding-left: 50px;
+  }
+  .nav-item :hover{
+    color: #ffb700;
+  }
+  .text1{
+    color: #111111;
+    font-family: sans-serif;
+    font-weight: 475;
+    padding-left:100px;
+    padding-top: 20px;
+    font-size: 17px;
+    line-height: 1.5;
+   
+  }
+ .title
+  {
+    padding-top: 130px;
+    padding-left: 100px;
+    color: #111111;
+    font-family: sans-serif;
+    font-weight: 850;
+    font-size: 90px;;
+  }
+  .btn{
+    font-weight: 600;
+    color: var(--bs-black);
+    background-color: var(--bd-black);
+    border-color: var(--bd-black);
+    border-radius: none;
+    background-color: #111111;
+    padding: 10px;
+
+
+  }
+    .btn:hover{ 
+       color: #ffb700;
+
+    }
+   .btn{
+    text-decoration: white;
+    color: var(--bs-white);
+    font-weight: 600;
+   }
+   .bt1{
+    padding-left: 100px;
+    padding-top: 30px;
+   }
+   /*Scroll do Crrrossel*/
+
+    /*Biografia do Mario*/
+  
+    figure {
+        float: right;
+        margin: 0 0 10px 10px;
+           }
+      h1.nome{
+        font-size: 3rem;
+        font-weight: 700;/*Expessura da fonte*/
+        line-height: 1;
+        margin: 19, 0 0;
+        color: black;
+        margin-top: 2%;
+        position: relative;
+        padding-left: 130px;
+        padding-top: 130px;
+        padding-bottom: 60px;
+    }
+    .text2
+  {
+    font-weight: 10;/*Expessura da fonte*/
+    padding-bottom: 25px;
+    padding-top: 35px;
+    color: #111111;
+    font-family: sans-serif;
+    font-weight: 475;
+    padding-left:130px;
+    font-size: 17px;
+    line-height: 2;/*Espaçamento de baixo*/
+    background-color: #ffb700;
+   
+  }
+  figure .biom {
+    float: right;
+    width:650px ;
+    padding-right: 110px;
+    cursor: copy;
+   
+
+}
+/*Batman*/
+.bat {
+  width: 600px;
+  float: left;
+ 
+     }
+     
+.text3{
+   font-weight: 1;
+   font-family:Arial, Helvetica, sans-serif;
+}
+.quiz{
+ 
+  font-size: 35px;
+}
+.quizz{
+  padding-left: 800px;
+}
+.btn-outline-dark{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+/*Pulo do Gato*/
+.pdg{
+  background-image: url(img/wallpaper\ pulo\ do\ gato1.png) ;
+  height:670px ;
+}
+
+.vdo{
+  width: 592px; 
+  float: right;
+  padding-right: 300px;
+  padding-top: 70px;
+  
+ 
+}
+.text4{
+  font-weight: 10;/*Expessura da fonte*/
+  padding-bottom: 25px;
+  padding-top: 15px;
+  color: #111111;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 475;
+  padding-left:130px;
+  font-size: 17px;
+  line-height: 1.5;/*Espaçamento de baixo*/
+}
+.font{
+  padding-left:130px;
+  padding-top: 235px;
+  width: 550px;
+}
+/*AVISO*/
+.avisoo{
+  background-image: url(img/supremacymario.jpg);
+  height:670px ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.quadro{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 490px;
+  position: relative;
+  background-color: #292d33;
+
+}
+.melhor{
+  margin-top: 20px;
+  font-weight: 10;/*Expessura da fonte*/
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 475;
+  font-size: 17px;
+  line-height: 1.5;/*Espaçamento de baixo*/
+}
+.AVIISO{
+  font-size: 70px;
+  color: #ffb700;
+}
+.btn-primary{
+  font-weight: 600;
+  color: var(--bs-black);
+  background-color: var(--bd-black);
+  border-color: var(--bd-black);
+  border-radius: none;
+  background-color: #ffb700;
+  padding: 10px;
+  border-radius: 6px;
+}
+  .houver:hover{ 
+    background-color: #e4a607;
+  }
+ .btn-primary{
+  text-decoration: #292d33;  
+  color: var(#292d33);
+  font-weight: 600;
+
+ }
+ .mais{
+  padding-left: 50px;
+  padding-top: 30px;
+ }
+ 
+ 
+ .sla{
+  padding-left: 60px;
+  padding-top: 303px;
+
+ }
+ .mior{
+  color: white;
+  font-weight: 0.1px;
+ }
+ .fas{
+padding-left: 350px;
+}
+.fastext{
+  font-size: 60px;
+}
+/*CONTADOR*/
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.cont {
+  transition: --num 5s;
+  counter-set: cont var(--num);
+  font: 600 90px system-ui;
+}
+.cont::after {
+  padding-left: 400px;
+
+  content: counter(cont);}
+  
+.cont:hover {
+  --num: 1209050100;
+}
+.cont{
+  background-color: #ffb700;
+}
+
+.img-responsive{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.img-responsive:hover{
+    -webkit-transform: scale(1.5);
+     transform: scale(1.2);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+.scrollmenu{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.scrollmenu{
+  overflow-x: hidden;
+}
+#suprimacy{
+  overflow-x: hidden;
+}
+/*SETAS NO LUGAR DE SCROLL*/
+
+/*Mexendo no Scroll*/
+.scrollmenu::-webkit-scrollbar { 
+    width: 2px;
+    background-color: #CCCCCC;
+}
+/*Barra de trás do scroll*/
+.scrollmenu::-webkit-scrollbar-track {
+    background: #CCCCCC;
+}
+.scrollmenu::-webkit-scrollbar-button {
+    border: 1px #CCCCCC dashed;
+}
+/*Barrinha*/
+.scrollmenu::-webkit-scrollbar-thumb {
+    background: #fed876;
+    border-radius: 80px;
+    cursor: pointer;
+
+}
+.scrollmenu::-webkit-scrollbar-corner {
+    background:#CCCCCC ;
+    border-radius: 5px;
+}
+.form-comment textarea::-webkit-resizer {
+    border: 1px #CCCCCC dashed;
+}
+.scrollmenu::-webkit-scrollbar-thumb:hover{
+  background-color: #fdc433;
+}
+
+/*MAPA*/
+.mapa{
+  padding-bottom: 50px;
+   height: 400px;
+   background-image: url(img/Design\ sem\ nome.png);
+   background-repeat: none;
+}
+.contato{
+  font-size: 700px;
+  padding-bottom: 50px;
+  margin-left: 380px;
+  border-radius: 10px;
+  background-color: #ffb700;
+}
+
+.div1{
+  padding-top: 50px;
+  margin-left: 180px;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 200px;
+    display: inline-block;
+}
+.email{
+  padding-top: 40px;
+  padding-right: 700px;
+}
+.drip{
+      /*padding-top: 50px;
+      margin-left: 100px;
+        padding-left: 20px;
+        padding-right: 10px;
+        width: 50px;*/
+        display: inline-block;
+        width: 40%;
+        height: 100px;
+        position: relative;
+        clear:both;
+        margin-left: 80px;
+        
+    }
+   
+.hehe{
+  height: 1500px;
+}
+
+
+
+.ds{
+  background-color: white;
+  height: 600px;
+}
+.final{
+  background-color: #fdc433;
+    width: 100%;
+}
+.finar{
+ padding-left: 300px;
+  width: 1000px;
+}
+
+  .noiz {
+    float: left;
+    margin: 0 10px 10px 0;
+  }
+  
+.pading{
+  color: #CCCCCC;
+  background-color: #CCCCCC;
+  height: 120px;
+}
+.img-noiz{
+  width: 300px;
+}
+.pft{
+  font-size: 60px;
+  padding-left: 300px;
+}
+/**/
+
+.top{
+  padding-top: 150px;
+  padding-left: 150px;
+  padding-bottom: 500px;
+}
+.ain{
+  width: 900px;
+  align-items: center;
+  padding-left: 10px;
+}
+@media (max-width: 600px)
+{
+  .corpo
+   {
+    width: 600px;
+   }
+  }
+  .ain{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.ain:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
