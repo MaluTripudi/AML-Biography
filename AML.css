@@ -727,3 +727,11 @@ body { min-height: 100vh; }
   text-align: center;
   color:  #ffb700;
 }
+
+.help{
+ color: red; 
+}
+.help:hover{
+      color: deeppink;
+}
+
